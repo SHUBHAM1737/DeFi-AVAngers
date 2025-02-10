@@ -1,0 +1,28 @@
+
+{
+  "variant": "vibrant",
+  "primary": "#6D28D9",
+  "secondary": "#4F46E5",
+  "accent": "#8B5CF6",
+  "background": "#0F172A",
+  "foreground": "#F8FAFC",
+  "appearance": "dark",
+  "radius": 1,
+  "colors": {
+    "gradient": {
+      "primary": {
+        "from": "#6D28D9",
+        "to": "#8B5CF6"
+      },
+      "secondary": {
+        "from": "#4F46E5",
+        "to": "#818CF8"
+      }
+    },
+    "surface": {
+      "background": "#0F172A",
+      "foreground": "#1E293B",
+      "border": "#334155"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal scrollbar styles */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased text-foreground;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #0B1120;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 225 16% 12%;
+    --foreground: 0 0% 100%;
+    --primary: 359 76% 64%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 225 70% 65%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 359 76% 64%;
+    --accent-foreground: 0 0% 100%;
+    --border: 225 16% 20%;
+    --input: 225 16% 20%;
+    --ring: 359 76% 64%;
+  }
+}
+
+/* Simple fade animations */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+/* Basic transitions */
+.transition-standard {
+  transition: all 0.2s ease-out;
+}
+
+/* Input focus styles */
+input:focus {
+  box-shadow: 0 0 0 2px rgba(232, 65, 66, 0.2);
+}
+
+/* Button hover effect */
+.button-hover {
+  transition: opacity 0.2s ease-out;
+}
+
+.button-hover:hover {
+  opacity: 0.9;
+}
