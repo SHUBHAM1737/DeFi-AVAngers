@@ -1,4 +1,4 @@
-The DeFi AVAngers platform leverages a sophisticated suite of AI agents to empower users in their DeFi activities 🌐. Below, we provide a detailed overview of each agent, practical examples of their use, and additional enhancements.
+**The DeFi AVAngers platform leverages a sophisticated suite of AI agents to empower users in their DeFi activities 🌐. Below, we provide a detailed overview of each agent, practical examples of their use, and additional enhancements.
 
 #### 1. Portfolio Manager 📈
 - *Type*: Asset Intelligence Agent
@@ -58,3 +58,4 @@ The DeFi AVAngers platform leverages a sophisticated suite of AI agents to empow
 ### Conclusion 🚀
 
 Through the combined capabilities of these intelligent agents, the DeFi AVAngers platform offers users a robust toolkit for navigating complex DeFi systems 🛠️. Users can easily manage their assets, make informed decisions, and optimize their trading strategies dynamically—all within the innovative Avalanche blockchain environment 🌉.
+**
